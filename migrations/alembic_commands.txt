@@ -1,0 +1,4 @@
+alembic revision --autogenerate -m "Initial migration"
+alembic upgrade head - накатить сразу все миграции ( так же вместо head можно указать hash)
+
+alembic downgrade - 1 #откатить одну миграцию
